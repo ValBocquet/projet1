@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WEBAGENCY</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body>
+    <div id="main">
+        <nav id="nav">
+            <div id="logo">
+                <img src="webagency_images/images/logo.png" alt="logo webagency">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <aside id="slider">
+            <img src="webagency_images/images/slider/bg1.jpg" class="mySlides" alt="img slider 1">
+            <img src="webagency_images/images/slider/bg2.jpg" class="mySlides" alt="img slider 2">
+            <button class="precedent" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="suivant" onclick="plusDivs(+1)">&#10095;</button>
+        </aside>
+        <div id="description">
+            <h1 id="texte_principal"><span class="bleu_texte">WEBAGENCY</span> : L'AGENCE DE TOUS</h1>
+            <h1 id="h1_projet">VOS PROJETS !</h1>
+            <h4>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</h4>
+            <button id="infos_btn" type="button">Plus d'infos</button>
+        </div>
+
+        <section id="services">
+            <h2>NOS SERVICES</h2>
+            <div class="style_hr">
+                <div class="hr-line"></div>
+                <span class="fas fa-circle"></span>
+                <div class="hr-line"></div>
+            </div>  
+            <p class="texte_center">Dans notre agence web, nous avons une pluralité de compétences. On s'occupe du développement, du SEO et bien d'autres.</p>
+        <aside id="ordi_competences">
+            <div id="ordinateur">
+                <img src="webagency_images/images/main-feature.png" alt="image principale ordinateur"> 
+            </div>
+            <div id="competences">
+                <ul>
+                    <li>UX design <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p></li>
+                    <li>UX design <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p></li>
+                    <li>SEO <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p></li>
+                </ul>
+            </div>
+        </aside>
+        </section>
+        <section id="projets">
+            <h2>NOS PROJETS</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p>
+        
+        <!-- bouttons dynamiques pour nos projets -->
+            <img src="webagency_images/images/portfolio/01.jpg" alt="01">
+            <img src="webagency_images/images/portfolio/02.jpg" alt="02">
+            <img src="webagency_images/images/portfolio/03.jpg" alt="03">
+            <img src="webagency_images/images/portfolio/04.jpg" alt="04">
+            <img src="webagency_images/images/portfolio/05.jpg" alt="05">
+            <img src="webagency_images/images/portfolio/06.jpg" alt="06">
+            <img src="webagency_images/images/portfolio/07.jpg" alt="07">
+            <img src="webagency_images/images/portfolio/08.jpg" alt="08">
+        </section>
+        <section id="contact">
+            <h2>NOUS CONTACTER</h2>
+        </section>
+    </div>
+    
+    <script src="slider.js"></script>
+</body>
+</html>
