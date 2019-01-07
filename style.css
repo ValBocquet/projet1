@@ -13,6 +13,9 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 #menu ul {
     list-style-type: none;
@@ -94,7 +97,7 @@ body {
     cursor: pointer;
 }
 
-#services h2 {
+h2 {
     text-align: center;
     color: #272727;
     font-size: 2.5em;
@@ -105,18 +108,21 @@ body {
     padding-bottom: 30px;
 }
 .hr-line {
-    width: 20%;
+    width: 7%;
     padding-bottom: 5px;
-    border-bottom: 1px solid #272727;
+    border-bottom: 1px solid #ebebeb;
 
 }
-.fa-circle {
+.style_hr span {
     color: #5cadd3;
     position: relative;
     top: 7px;
 }
 .texte_center {
+    width: 650px;
+    margin: auto;
     text-align: center;
+    padding-bottom: 50px;
 }
 #ordi_competences {
     width: 100%;
@@ -125,4 +131,174 @@ body {
 }
 #ordinateur {
     width: 510px;
+    padding-left: 200px;
+}
+#competences {
+    padding-left: 120px;
+}
+#competences ul {
+    list-style-type: none;
+}
+#competences ul li {
+    padding-bottom: 20px;
+}
+#competences ul li img {
+    float: left;
+    padding-right: 40px;
+}
+#competences ul li p {
+    padding-right: 200px;
+}
+
+.gris_texte {
+    color: #686C71;
+
+}
+.texte_bold {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#projets {
+    background: #F5F5F5;
+}
+#projets h2 {
+    padding-top: 20px;
+}
+ #nav_projets {
+    display: flex;
+    justify-content: center; 
+ }
+#nav_projets a {
+    text-decoration: none;
+}
+
+#nav_projets button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: #E5E5E5;
+    cursor: pointer;
+    color: #686C71;
+
+}
+
+#nav_projets button:hover  {
+    color: white;
+}
+#nav_projets button:hover {
+    background: #4494bb;
+    border-bottom: 3px solid #468cad;
+}
+
+.fleche_nav {
+    width: 25px;
+    visibility: hidden;
+}
+#lien1:hover .fleche_nav {
+    visibility: visible;
+}
+#lien2:hover .fleche_nav {
+    visibility: visible;
+}
+#lien3:hover .fleche_nav {
+    visibility: visible;
+}
+#lien4:hover .fleche_nav {
+    visibility: visible;
+}
+
+.fleche_nav:hover {
+    display: block;
+}
+
+#lien1, #lien2, #lien3, #lien4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#images_projet {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#images_projet img {
+    width: 23%;
+    padding-bottom: 35px;
+}
+#image4 {
+    width: 390px;
+    height: 263px;
+    background: url('webagency_images/images/portfolio/04.jpg');
+    background-size: cover; /* dezoom l'image */
+}
+#images4 img {
+
+}
+.essai{
+    color: white;
+    margin-left: 20px;
+    margin-top: 0;
+}
+#texte_img4 {
+    background: rgba(43, 42, 47, 0.6);
+    height: 60px;
+    margin-top: 183px;
+    padding-top: 20px;
+}
+#texte_img4 img {
+    width: 40px;
+    position: relative;
+    top: -100px;
+    left: 340px;
+}
+form {
+    background: rgba(242, 246, 248, 0.75);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20%;
+    margin-top: 60px;
+
+}
+form h3 {
+    font-size: 1.7em;
+    color: #272727;
+    margin-bottom: 0;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#tel {
+    padding-bottom: 20px;
+}
+form p {
+    color: #666A6F;
+    line-height: 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+form input, textarea {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+form input[type="submit"] {
+    width: 120px;
+    margin-left: 20px;
+    background: #4494bb;
+    color: white;
+}
+form input[type="submit"]:hover {
+    border-bottom: 3px solid #468cad;
+}
+#dotted {
+    border-bottom: 1px dotted #777777;;
 }

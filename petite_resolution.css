@@ -1,0 +1,72 @@
+#main {
+    width: 90%;
+}
+#nav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#nav ul {
+    padding-left: 0;
+}
+#menu ul li a:hover {
+    border: none;
+    color: grey;
+}
+#slider {
+    display: none;
+}
+#description {
+    position: initial;
+    color: grey;
+}
+#description h1, #description h4 {
+    text-align: center;
+}
+#infos_btn {
+    display: none;
+}
+#services p {
+    width: 100%;
+}
+#ordinateur {
+    display: none;
+}
+#competences {
+    padding: 0;
+}
+#projets p {
+    width: 100%;
+}
+#nav_projets {
+    display: none;
+}
+#images_projet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#images_projet img {
+    padding-bottom: 10px;
+    width: 70%;
+}
+#image4 {
+   width: 70%;
+   margin-bottom: 10px;
+}
+#texte_img4 {
+    display: none;
+}
+form {
+    width: 100%;
+    position: inherit;
+}
+iframe {
+    width: 100%;
+    height: 30%;
+}
+#adress, #tel {
+    font-size: .9em;
+}

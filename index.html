@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet"  media="screen and (max-width: 1280px)" href="petite_resolution.css">
     
 </head>
 <body>
     <div id="main">
         <nav id="nav">
             <div id="logo">
-                <img src="webagency_images/images/logo.png" alt="logo webagency">
+                <a href="#"><img src="webagency_images/images/logo.png" alt="logo webagency"></a>
             </div>
             <div id="menu">
                 <ul>
@@ -45,37 +46,110 @@
                 <span class="fas fa-circle"></span>
                 <div class="hr-line"></div>
             </div>  
-            <p class="texte_center">Dans notre agence web, nous avons une pluralité de compétences. On s'occupe du développement, du SEO et bien d'autres.</p>
+            <p class="texte_center gris_texte">Dans notre agence web, nous avons une pluralité de compétences. On s'occupe du développement, du SEO et bien d'autres.</p>
         <aside id="ordi_competences">
             <div id="ordinateur">
                 <img src="webagency_images/images/main-feature.png" alt="image principale ordinateur"> 
             </div>
             <div id="competences">
                 <ul>
-                    <li>UX design <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p></li>
-                    <li>UX design <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p></li>
-                    <li>SEO <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p></li>
+                    <li>
+                        <img src="webagency_images/images/service1.png" alt="service1_image">
+                            <span class="texte_bold">WebDesign - Flexibilité</span> 
+                            <p class="gris_texte">
+                                Nous pouvons réaliser un design spécialement concçu pour votre site web. Nos meilleurs webdesigneurs pourront s'occuper de vous !
+                            </p></li>
+                    <li>
+                        
+                            <img src="webagency_images/images/service2.png" alt="service2_image">                        
+                            <span class="texte_bold">Développement par étape</span> 
+                            <p class="gris_texte">
+                                Nous construisons le site internet de vos rêves avec vous. Etape par étape, vous voyez l'avancement de votre site internet !
+                            </p></li>
+                    <li>
+                            <img src="webagency_images/images/service3.png" alt="service3_image">
+                        
+                            <span class="texte_bold">SEO</span>
+                            <p class="gris_texte">
+                                Le référencement web commence dès la conception de votre site internet. Nous mettons tout en oeuvre pour améliorer vos chances de positionnement dans les moteurs de recherche.
+                            </p></li>
                 </ul>
             </div>
         </aside>
         </section>
         <section id="projets">
             <h2>NOS PROJETS</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p>
-        
-        <!-- bouttons dynamiques pour nos projets -->
-            <img src="webagency_images/images/portfolio/01.jpg" alt="01">
-            <img src="webagency_images/images/portfolio/02.jpg" alt="02">
-            <img src="webagency_images/images/portfolio/03.jpg" alt="03">
-            <img src="webagency_images/images/portfolio/04.jpg" alt="04">
-            <img src="webagency_images/images/portfolio/05.jpg" alt="05">
-            <img src="webagency_images/images/portfolio/06.jpg" alt="06">
-            <img src="webagency_images/images/portfolio/07.jpg" alt="07">
-            <img src="webagency_images/images/portfolio/08.jpg" alt="08">
+            <div class="style_hr">
+                    <div class="hr-line"></div>
+                    <span class="fas fa-circle"></span>
+                    <div class="hr-line"></div>
+                </div>  
+            <p class="texte_center gris_texte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ex at ligula ultricies porta. Vivamus facilisis mattis justo. Fusce commodo nisi leo, vitae sollicitudin libero aliquet eu. In eu. </p>
+            
+            <!-- bouttons dynamiques pour nos projets -->
+            <nav id="nav_projets">
+                
+                    <div id="lien1">
+                        <button>
+                            <!-- <a href="#">All Works</a> -->
+                            All Works
+                        </button>
+                        <img src="webagency_images/images/caret-down-solid.svg" alt="fleche_nav" class="fleche_nav">
+                        
+                    </div>
+                    <div id="lien2">
+                        <button>
+                            All Works
+                        </button>
+                        <img src="webagency_images/images/caret-down-solid.svg" alt="fleche_nav" class="fleche_nav">
+                    </div>
+                    <div id="lien3">
+                        <button>
+                            All Works
+                        </button>   
+                        <img src="webagency_images/images/caret-down-solid.svg" alt="fleche_nav" class="fleche_nav">
+                    </div>
+                    <div id="lien4">
+                        <button>
+                            All Works
+                        </button>
+                        <img src="webagency_images/images/caret-down-solid.svg" alt="fleche_nav" class="fleche_nav ">
+                    </div>
+                
+            </nav>
+
+            <div id="images_projet">
+                <img src="webagency_images/images/portfolio/01.jpg" alt="01">
+                <img src="webagency_images/images/portfolio/02.jpg" alt="02">
+                <img src="webagency_images/images/portfolio/03.jpg" alt="03">
+                <div id="image4">
+                    <!-- <img src="webagency_images/images/portfolio/04.jpg" alt="04"> -->
+                    <div id="texte_img4">
+                        <p class="essai"><span class="texte_bold">Portfolio Item 4</span> <br>
+                        Lorem Ipsum Dolor Sit</p>
+                        <img src="webagency_images/images/circle-projet.svg" alt="">
+                    </div>
+                </div>
+                <img src="webagency_images/images/portfolio/05.jpg" alt="05">
+                <img src="webagency_images/images/portfolio/06.jpg" alt="06">
+                <img src="webagency_images/images/portfolio/07.jpg" alt="07">
+                <img src="webagency_images/images/portfolio/08.jpg" alt="08">
+            </div>
         </section>
         <section id="contact">
             <h2>NOUS CONTACTER</h2>
+            <form action="#" method="post">
+                <h3>Contact Info</h3>
+                <p class="texte_bold">WebAgency SAS</p>
+                <p id="adress">58 Impasse Christian 83500 La Seyne Sur Mer</p>
+                <p id="tel"><span id="dotted">Tel :</span> 06 69 70 29 25</p>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="subjet" id="subjet" placeholder="Sujet">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Envoyer Message">
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27719.471679283793!2d5.920878870951714!3d43.09084164967359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9035329d2c7ab%3A0x281e6f4b5da7f637!2s58+Impasse+Christian%2C+83500+La+Seyne-sur-Mer!5e0!3m2!1sfr!2sfr!4v1546795683358" style="height:800px; width:100%; border:0;" allowfullscreen></iframe>
         </section>
     </div>
     
